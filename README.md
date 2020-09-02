@@ -1,2 +1,2 @@
 # Mechatronics Projects
-Repository containing any code I use while working with robotics.
+Repository containing the programs I create while working with home mechatronic projects.
