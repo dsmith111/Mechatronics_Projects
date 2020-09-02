@@ -1,0 +1,36 @@
+Initiate Libraries
+  SPI
+  MFRC
+  Servo
+
+Initiate Variables
+  led
+  tagid
+  chip select
+  reset
+  mfrc setup(cs,reset)
+
+SETUP Function
+  Setup led pin as output
+  Initialize MFRC library
+  
+end setup
+
+LOOP Function 
+
+  if(chip is present)
+    read chip tagid
+    if tagid matches stored id
+      set led output high
+      delay for a couple of seconds
+      
+    elseif tag id does not match
+      blink led twice
+    
+    else
+      blink led 3 times
+    end
+    
+  
+  
+end loop
